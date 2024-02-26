@@ -137,9 +137,9 @@ Einstein postulates, $\nabla g=0$ and the antisymmetric part of the connection b
 1. **Covariant Derivative**
 - The covariant derivative is a way of specifying a derivative along the curves within a manifold. Unlike ordinary derivatives, the covariant derivative takes into account the curvature of the space $\partial\to \nabla=\partial + \Gamma$.
 - It generalizes the notion of a directional derivative from flat spaces to curved spaces. The covariant derivative of a tensor field extends the concept of the directional derivative to fields that can change from point to point in space.
-- For a contravariant vector field ${\displaystyle X^\lambda}$ we have:
+- For a contravariant vector field $X^\lambda$ we have:
 $$X^\lambda_{; \mu} \equiv \partial_\mu X^\lambda + \Gamma^\lambda_{\mu \nu} X^\nu$$
-- For a covariant vector field $ {\displaystyle X_\lambda}$ we have:
+- For a covariant vector field $X_\lambda$ we have:
 $$X_{\lambda ; \nu} \equiv \partial_\nu X_\lambda - \Gamma^\mu_{\nu \lambda} X_\mu$$
 ## Christoffel Symbols
 
