@@ -48,6 +48,7 @@
 - **Spectral Tilt and Observations**: The prediction of a slight red tilt in the power spectrum ($ n_s < 1 $) is consistent with observational data from the CMB, providing strong evidence for inflation. The specific value of $ n_s $ also constrains different inflationary models.
 - **Role of Scalar Fields**: Scalar fields play a central role in describing the dynamics of inflation and perturbations, highlighting their importance in theoretical cosmology and potential connections to particle physics.
 - **Quantization Approach**: The detailed quantization process and derivation of the action for perturbations showcase the rigorous mathematical framework required to analyze the early universe, emphasizing the interplay between general relativity and quantum field theory.
+- 
 # More details
 
 ## Introduction
@@ -141,7 +142,7 @@ $$
 S = \frac{1}{2} \int \left( v'^2 + c_s^2 v \nabla^2 v + \frac{z''}{z} v^2 \right) d\eta d^3x.
 $$
 
-The canonical quantization variable \( v \) satisfies:
+The canonical quantization variable $ v $ satisfies:
 
 $$
 v'' - c_s^2 \nabla^2 v - \frac{z''}{z} v = 0.
@@ -149,18 +150,19 @@ $$
 
 Quantization leads to:
 
-$$\hat{v}(\eta, x) = \frac{1}{\sqrt{2}} \int (v_k(\eta) e^{ikx} \hat{a}_k + v_k^*(\eta) e^{-ikx} \hat{a}_k^\dagger )\frac{d^3k}{(2\pi)^{3/2}},
+$$
+\hat{v}(\eta, x) = \frac{1}{\sqrt{2}} \int \left( v_k(\eta) e^{ikx} \hat{a}_k + v_k^*(\eta) e^{-ikx} \hat{a}_k^\dagger \right) \frac{d^3k}{(2\pi)^{3/2}},
 $$
 
-where the mode functions \( v_k(\eta) \) satisfy:
+where the mode functions $ v_k(\eta) $ satisfy:
 
-$v''_k + ( c_s^2 k^2 - \frac{z''}{z} ) v_k = 0,
+$$
+v''_k + \left( c_s^2 k^2 - \frac{z''}{z} \right) v_k = 0,
 $$
 
 with the normalization condition:
 
-$$
-v'_k v_k^* - v_k v_k^*' = 2i.
+$$v'_k v_k^{*} - v_k v_k^{*}' = 2i.
 $$
 
 ### Spectrum of Perturbations
